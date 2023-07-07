@@ -22,8 +22,10 @@ for (i = 0; i < allButtons.length; i++) {
 //percent
           if (e.target.getAttribute('class') === 'percent') {
                temp = parseFloat(display.textContent)/100;
-               if (temp.toString().length < 10) {
-                    display.textContent = temp.toString();
+               if (temp.toString().length < 8) {
+                    display.textContent = temp;
+               } else {
+                    display.textContent = temp.toFixed(7);
                }
           }
 
