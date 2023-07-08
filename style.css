@@ -12,8 +12,8 @@ body {
      display: flex;
      flex-direction: column;
      align-items: center;
-     width: 500px;
-     height: 600px;
+     width: 440px;
+     height: 610px;
      gap: 10px;
      color: white;
      background-color: #00004d;
@@ -24,12 +24,18 @@ body {
      border-radius: 5px;
      background-color: lightgray;
      color: black;
-     height: 94px;
+     height: 188px;
      width: 397px;
      margin-top: 10px;
      font-size: 86px;
      text-align: right;
      padding-right: 15px;
+}
+
+.previousOperand {
+     padding-left: 10px;
+     text-align: left;
+     font-size: 30px;
 }
 
 .row-container {
@@ -66,5 +72,9 @@ button {
 }
 
 #zero {
+     width: 206px;
+}
+
+.clear {
      width: 206px;
 }
